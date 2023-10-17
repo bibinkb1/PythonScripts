@@ -1,0 +1,10 @@
+f  = open("bibin.txt" , mode="w")
+f.write("hello\n")
+f.write("how are you\n")
+f.close()
+print("writing sucess")
+
+f = open("bibin.txt" , mode="r")
+data = f.read()
+print(data)
+f.close()
