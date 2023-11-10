@@ -1,6 +1,8 @@
 import os
 import platform
-if platform.system()=="Windows":
-    os.system("cls")
+if platform.system()=="Linux":
+    os.system("ifconfig")
 else:
     os.system("clear")
+
+
