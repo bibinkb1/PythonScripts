@@ -2,8 +2,8 @@ import os
 
 # specify the filepath and the strings to be searched and replaced
 filepath = '/home/bibin/work/pythonscriptingexamples/pythonfilehandling/bibin.txt'
-old_string = 'hi'
-new_string = 'hello'
+old_string = 'hello'
+new_string = 'hi'
 
 # open the file and read its contents
 with open(filepath, 'r') as file:
